@@ -1,42 +1,20 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+button {
+  background-color: #005f9e; /* Butonun arka plan rengi */
+  border-radius: 8px;    /* Buraya bir rakam yaz, mesela 8px */
+  color: white;           /* Yazı rengini ne istersin? */
+  padding: 10px 20px;   /* İç boşluk */
+  border: none;         /* Çerçeveyi kaldır */
+  cursor: pointer;      /* Üstüne gelince el işareti çıksın */
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.main {
+  background-color: #c0c0c0; /* Arka plan rengi */
+  border-radius: 10px; /* Köşeleri yuvarlat */
+  padding: 20px; /* İç boşluk */
+  max-width: 400px; /* Genişlik */
+  margin: 50px auto; /* Ortalamak için */
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+input {
+  padding: 10px;
 }
