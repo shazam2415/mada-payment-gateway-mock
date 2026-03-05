@@ -8,7 +8,8 @@ button {
 }
 
 .main {
-  background-color: #c0c0c0; /* Arka plan rengi */
+  border: 3px solid #000000; /* Siyah bir çerçeve */
+  background-color: #ffffff; /* Arka plan rengi */
   border-radius: 10px; /* Köşeleri yuvarlat */
   padding: 20px; /* İç boşluk */
   max-width: 400px; /* Genişlik */
